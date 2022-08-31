@@ -14,6 +14,11 @@ public class Wombat { //class name is always uppercase
         idNum = i;
     }
 
+    public Wombat(){
+        name = "Unknown";
+        idNum = 0; 
+    }
+
     public String toString(){
         return "name" + name + "idNum" + idNum;
     }
