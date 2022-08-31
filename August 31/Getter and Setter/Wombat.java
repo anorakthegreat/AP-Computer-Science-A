@@ -13,8 +13,16 @@ public class Wombat { //class name is always uppercase
         return name;
     }
 
+    public int getAge(){
+        return age;
+    }
+
     public void setName(String na){
         name = na;
+    }
+
+    public void setAge(int ag){
+        age = ag;
     }
 
     public String toString(){
