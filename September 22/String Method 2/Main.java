@@ -4,15 +4,12 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) {
-        String s = "Lucky hockey puck";
-        String m = "uck";
-        int j = 6;
-        int z = 99;
+        String strings = "TomYum";
+        // strings = strings.substring(strings.indexOf("Y")) + strings.substring(strings.indexOf("T"), strings.indexOf("m")+1);
+        int leng = strings.length();
+        System.out.println(leng);
 
-        boolean k = s.equals("good luck");
-        String str = s.substring(3,5);
-        int p = m.compareTo("luck");
-        System.out.println(p);
+
 
 
 
