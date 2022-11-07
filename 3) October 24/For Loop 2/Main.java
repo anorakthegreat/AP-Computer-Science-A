@@ -8,15 +8,14 @@ public class Main {
       Scanner scan = new Scanner(System.in);
       System.out.println("In: ");
       int i = scan.nextInt();
-      method1(i);
 
-      
+      for(int c = 1 ; c <= i; c++){
+        System.out.print(" " + c + " ");
+      }
         
   }
 
   public static void method1(int i){
-    for(int c = 1 ; c <= i; c++){
-      System.out.print(" " + c + " ");
-    }
+      
   }
 }
